@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:app: blooming-spire-96335
+  provider: heroku
+  api_key:
+    secure: qbyi1tLLpUSt+F0vcu+bYI7R0VL4YGpapzi7Ws8Fa6E7EBX0JuCHvIqRoCX9TzJSj1tgwNHLeG/7Vb571Htgo5poBGarYTLkMvx10NOpiY6FGKxa7lDj6ysAZW/GDo1+bJX28DOpGeAECJPBAlvv3PICHUvfD4UdHvrL6JyifFGhatIl3igeFQCPbPE3hSU/y9meUz8CvcW87jDvosCXRPWlCXigu2QYv192lQBHpCph0/NuEzWMf1xhD4vNI7N6RZ8v/a6d8lzLcn3rr8RZSe/84Sx6FOnlc6JyBZUllXBMB/ZcQq6ZNHWioNpCcriSckyWX7YvVrletb6TJmZVJx1kKy8cgSWhyw4L6xAQjfHYg6O6On/W8jwcGPBeD2y9j4r/3hRnWNdecv+i41dP8gHRnYIIrSxQ0Zw6EaGdMLMrOt/+F4jGNOOgT4m0A8k14GMTD6JcEcBosSNTH2yjp2hKOKTIL7KqqnGHQhiD0tencXTei8cfCpaY/0BSaD53wUB9VDt5ZR5VuN0BOFBFB/xGz5r5uWEXeAm2c1qWP5cHQCh686UwxVzmH4qsflVOxf+MWVXjGLF50PCunXTDU4KLGZ2f86oIAR9lczHY63h1794h2clK+avYwbKNMgzOkViBD/ytWzxYpLPcGheWrQ5pkgqfWBbr4PszoYipY8I=
+  app: shopping-list-integration
+  on:
+    repo: inconbeo/shopping-list-integration
